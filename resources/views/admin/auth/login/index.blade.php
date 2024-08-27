@@ -7,7 +7,7 @@
     <meta name="description" content="A powerful and conceptual apps base dashboard template that especially build for developers and programmers.">
     <link rel="shortcut icon" href="{{ asset('backend/images/favicon.png') }}">
     <title>Login | Admin Panel</title>
-    <link rel="stylesheet" href="{{ asset('backend/assets/css/admintheme.css?ver=3.2.3') }}">
+    <link rel="stylesheet" href="{{ asset('backend/assets/css/dashlite.css?ver=3.2.3') }}">
     <link id="skin-default" rel="stylesheet" href="{{ asset('backend/assets/css/theme.css?ver=3.2.3') }}">
 </head>
 <body class="nk-body bg-white npc-general pg-auth">
@@ -50,11 +50,21 @@
                                         <li class="nav-item"><a class="link link-primary fw-normal py-2 px-3" href="#">Terms & Condition</a></li>
                                         <li class="nav-item"><a class="link link-primary fw-normal py-2 px-3" href="#">Privacy Policy</a></li>
                                         <li class="nav-item"><a class="link link-primary fw-normal py-2 px-3" href="#">Help</a></li>
+                                        <li class="nav-item dropup"><a class="dropdown-toggle dropdown-indicator has-indicator link link-primary fw-normal py-2 px-3" data-bs-toggle="dropdown" data-offset="0,10"><span>English</span></a>
+                                            <div class="dropdown-menu dropdown-menu-sm dropdown-menu-end">
+                                                <ul class="language-list">
+                                                    <li><a href="#" class="language-item"><img src="/demo1/images/flags/english.png" alt="" class="language-flag"><span class="language-name">English</span></a></li>
+                                                    <li><a href="#" class="language-item"><img src="/demo1/images/flags/spanish.png" alt="" class="language-flag"><span class="language-name">Español</span></a></li>
+                                                    <li><a href="#" class="language-item"><img src="/demo1/images/flags/french.png" alt="" class="language-flag"><span class="language-name">Français</span></a></li>
+                                                    <li><a href="#" class="language-item"><img src="/demo1/images/flags/turkey.png" alt="" class="language-flag"><span class="language-name">Türkçe</span></a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
                                     </ul>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="nk-block-content text-center text-lg-start">
-                                        <p class="text-soft">&copy; 2023 Book Vault. All Rights Reserved.</p>
+                                        <p class="text-soft">&copy; 2023 Dashlite. All Rights Reserved.</p>
                                     </div>
                                 </div>
                             </div>
@@ -66,5 +76,5 @@
     </div>
     <script src="{{ asset('backend/assets/js/bundle.js?ver=3.2.3') }}"></script>
     <script src="{{ asset('backend/assets/js/scripts.js?ver=3.2.3') }}"></script>
-
+    <script src="{{ asset('backend/assets/js/demo-settings.js?ver=3.2.3') }}"></script>
 </html>
